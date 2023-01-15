@@ -1,0 +1,6 @@
+Pandas
+Matplotlib
+Textblob
+Vader
+Pickle
+Streamlit_lottie
