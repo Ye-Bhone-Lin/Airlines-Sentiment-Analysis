@@ -3,5 +3,4 @@ matplotlib
 numpy
 textblob
 vader
-pickle
 scikit-learn
