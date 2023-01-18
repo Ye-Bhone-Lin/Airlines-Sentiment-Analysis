@@ -1,6 +1,7 @@
-Pandas
-Matplotlib
-Textblob
-Vader
-Pickle
-Streamlit_lottie
+pandas
+matplotlib
+numpy
+textblob
+vader
+pickle
+scikit-learn
