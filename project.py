@@ -9,7 +9,6 @@ from vadersa import *
 from nbtest import *
 from wordcloud import WordCloud, STOPWORDS
 from matplotlib import pyplot as plt
-import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
@@ -93,20 +92,7 @@ if selected == 'Lexicon+Supervised':
     model.fit(x, y)
     score = model.score(x_test, y_test)
 
-    # save the model to disk
-    filename = 'finalized_model5.sav'
-    pickle.dump(model, open(filename, 'wb'))
 
-    # some time later...
-    filename = 'finalized_model5.sav' 
-    # load the model from disk
-    loaded_model = pickle.load(open(filename, 'rb'))
-    #loaded_model.score(x_test, y_test)
-    score = loaded_model.score(x_test, y_test)
-    #vec = CountVectorizer(stop_words='english')
-    #result=loaded_model.predict(vec.transform(['str']))
-    result=loaded_model.predict(vec.transform(list))
-    st.write(result)
 
     text_input_2 = st.text_input('Enter your text(VADER Lexicon & SVM)')
     tweets_svmdata = pd.read_csv('vader.csv')
