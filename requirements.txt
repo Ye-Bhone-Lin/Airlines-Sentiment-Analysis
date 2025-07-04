@@ -7,7 +7,6 @@ nltk==3.7
 pandas==1.4.4
 plotly==5.10.0
 plotly-express==0.4.0
-scipy==1.9.1
 seaborn==0.12.0
 textblob==0.17.1
 vaderSentiment==3.3.2
@@ -15,3 +14,4 @@ streamlit_lottie
 streamlit_option_menu
 wordcloud
 numpy==1.26.4
+streamlit
