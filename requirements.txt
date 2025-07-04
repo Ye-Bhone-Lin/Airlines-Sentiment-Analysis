@@ -4,7 +4,6 @@ jsons==1.6.3
 jsonschema==4.16.0
 nlp==0.4.0
 nltk==3.7
-numpy==1.23.3
 pandas==1.4.4
 plotly==5.10.0
 plotly-express==0.4.0
@@ -15,3 +14,4 @@ vaderSentiment==3.3.2
 streamlit_lottie
 streamlit_option_menu
 wordcloud
+numpy==1.26.4
