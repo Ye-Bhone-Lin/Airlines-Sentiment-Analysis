@@ -14,3 +14,4 @@ textblob==0.17.1
 vaderSentiment==3.3.2
 streamlit_lottie
 streamlit_option_menu
+wordcloud
